@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# OS
+.DS_Store
+
+# scraper artifacts
+gmaps_scraper/user_data/
+
+# Trained model (terlalu besar untuk GitHub, regenerate dengan train.py)
+absa/models/indobert-absa/
+
+# Local IDE configs
+.vscode/
+.idea/
