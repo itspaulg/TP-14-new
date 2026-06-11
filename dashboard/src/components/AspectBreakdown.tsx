@@ -1,21 +1,11 @@
 "use client";
 
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, LabelList } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import type { UmkmSnapshot } from "@/lib/types";
 import { ASPECTS } from "@/lib/types";
 
 export function AspectBreakdown({ umkm }: { umkm: UmkmSnapshot }) {
-  const data = ASPECTS.flatMap((asp) => {
-    const a = umkm.aspects[asp];
-    return [
-      { aspek: asp, kategori: "positif", count: a.positif, fill: "#10b981" },
-      { aspek: asp, kategori: "netral", count: a.netral, fill: "#f59e0b" },
-      { aspek: asp, kategori: "negatif", count: a.negatif, fill: "#ef4444" },
-      { aspek: asp, kategori: "td", count: a.tidak_disebut, fill: "#a1a1aa" },
-    ];
-  });
-
-  // pivot to stacked structure
+  // one row per aspek, stacked by sentiment category
   const stacked = ASPECTS.map((asp) => {
     const a = umkm.aspects[asp];
     return {
@@ -44,7 +34,7 @@ export function AspectBreakdown({ umkm }: { umkm: UmkmSnapshot }) {
           <Tooltip
             cursor={{ fill: "rgba(0,0,0,0.04)" }}
             contentStyle={{ fontSize: 12, borderRadius: 8 }}
-            formatter={(v: number, name: string) => [`${v}`, name]}
+            formatter={(value, name) => [`${value}`, String(name)]}
           />
           <Bar dataKey="positif" stackId="a" fill="#10b981" />
           <Bar dataKey="netral" stackId="a" fill="#f59e0b" />
