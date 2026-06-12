@@ -17,11 +17,25 @@ sama supaya comparative analysis fair).
 gmaps_scraper/   Pipeline scraping Google Maps reviews (Playwright)
 absa/            Fine-tuning IndoBERT untuk 3-aspect ABSA
 analytics/       Comparative benchmarking + rule-based recommendation engine
-dashboard/       Next.js dashboard untuk visualisasi
+dashboard/       Next.js dashboard untuk visualisasi (+ search box + live analyze)
+api/             FastAPI backend untuk live analyze (scrape+inference on demand)
 docs/            Demo script, slide content, validation form
 ```
 
 Masing-masing folder ada README sendiri dengan detail.
+
+## Dua mode pakai
+
+1. **Dashboard statis** (instan): overview heatmap, detail per UMKM, dan
+   recommendations dibaca dari hasil pipeline yg sudah di-precompute. Ada
+   search box untuk lompat ke UMKM mana pun di database. Ini cara utama
+   demo — semua instan karena data sudah jadi.
+
+2. **Live analyze** (on demand, ~1-2 menit): halaman `/analyze` menerima URL
+   Google Maps UMKM F&B apa pun → backend scrape review → IndoBERT inference
+   → bandingkan dengan median pasar → rekomendasi. Butuh backend FastAPI
+   jalan (`cd api && uvicorn main:app --port 8000`). Tidak instan karena
+   scraping butuh waktu nyata.
 
 ## Flow data end-to-end
 
@@ -44,9 +58,10 @@ dashboard/ (Next.js)       →  visualisasi interaktif
 | 2. ABSA model | ✓ | IndoBERT macro-F1 0.7556, weighted-F1 0.835 |
 | 3. Analytics engine | ✓ | snapshot.json + leaderboard per aspek |
 | 4. Recommendation engine | ✓ | rule-based templates, 6 strategy codes |
-| 5. Dashboard | ✓ | Next.js 3 page (overview / per-UMKM / recommendations) |
+| 5. Dashboard | ✓ | Next.js 4 page (overview / per-UMKM / recommendations / analyze) + search box |
 | 6. Validation | ✓ | Google Form survey (lihat docs/) |
 | 7. Docs + demo + deck | ✓ | docs/demo_script.md + docs/slide_content.md |
+| Bonus. Live analyze | ✓ | api/ FastAPI: paste URL → scrape + inference on demand |
 
 ## Quick start
 
@@ -60,7 +75,16 @@ cd dashboard && npm install && cd ..
 # Run dashboard (data sudah ada di repo)
 cd dashboard && npm run dev
 # → http://localhost:3000
+
+# (opsional) Run backend untuk fitur live analyze
+pip3 install --user -r api/requirements.txt
+cd api && python3 -m uvicorn main:app --port 8000
 ```
+
+> Catatan: model weights (`absa/models/indobert-absa/`) dan `node_modules`
+> tidak di-commit (terlalu besar). Regenerate dengan
+> `cd absa && python3 train.py --epochs 5 --no-class-weight` dan
+> `cd dashboard && npm install`. Live analyze butuh model weights ini.
 
 ## Stack
 
