@@ -3,18 +3,18 @@
   "umkm_count": 9,
   "market": {
     "rasa": {
-      "median_positive_share": 0.9322033898305084,
-      "median_net_sentiment": 0.65625,
+      "median_positive_share": 0.8333333333333334,
+      "median_net_sentiment": 0.5901639344262295,
       "n_umkm": 9
     },
     "harga": {
-      "median_positive_share": 0.5714285714285714,
-      "median_net_sentiment": 0.19545454545454544,
-      "n_umkm": 7
+      "median_positive_share": 0.5125,
+      "median_net_sentiment": 0.05965909090909091,
+      "n_umkm": 8
     },
     "pelayanan": {
-      "median_positive_share": 0.5294117647058824,
-      "median_net_sentiment": 0.058823529411764705,
+      "median_positive_share": 0.5652173913043478,
+      "median_net_sentiment": 0.125,
       "n_umkm": 9
     }
   },
@@ -23,24 +23,24 @@
       "_count": 57,
       "aspects": {
         "rasa": {
-          "positif": 32,
-          "negatif": 1,
+          "positif": 29,
+          "negatif": 2,
           "netral": 5,
-          "tidak_disebut": 19,
-          "volume": 38,
-          "decisive": 33,
-          "positive_share": 0.9696969696969697,
-          "net_sentiment": 0.8157894736842105
+          "tidak_disebut": 21,
+          "volume": 36,
+          "decisive": 31,
+          "positive_share": 0.9354838709677419,
+          "net_sentiment": 0.75
         },
         "harga": {
-          "positif": 7,
-          "negatif": 1,
+          "positif": 8,
+          "negatif": 0,
           "netral": 0,
           "tidak_disebut": 49,
           "volume": 8,
           "decisive": 8,
-          "positive_share": 0.875,
-          "net_sentiment": 0.75
+          "positive_share": 1.0,
+          "net_sentiment": 1.0
         },
         "pelayanan": {
           "positif": 5,
@@ -54,11 +54,12 @@
         }
       },
       "strategies": {
-        "rasa": "MONITOR",
+        "rasa": "DEFEND",
         "harga": "DEFEND",
         "pelayanan": "DEFEND"
       },
       "headlines": [
+        "STRENGTH:rasa",
         "STRENGTH:harga",
         "STRENGTH:pelayanan"
       ]
@@ -67,39 +68,39 @@
       "_count": 105,
       "aspects": {
         "rasa": {
-          "positif": 39,
-          "negatif": 5,
-          "netral": 11,
-          "tidak_disebut": 50,
-          "volume": 55,
-          "decisive": 44,
-          "positive_share": 0.8863636363636364,
-          "net_sentiment": 0.6181818181818182
+          "positif": 35,
+          "negatif": 8,
+          "netral": 10,
+          "tidak_disebut": 52,
+          "volume": 53,
+          "decisive": 43,
+          "positive_share": 0.813953488372093,
+          "net_sentiment": 0.5094339622641509
         },
         "harga": {
           "positif": 5,
-          "negatif": 2,
+          "negatif": 3,
           "netral": 3,
-          "tidak_disebut": 95,
-          "volume": 10,
-          "decisive": 7,
-          "positive_share": 0.7142857142857143,
-          "net_sentiment": 0.3
+          "tidak_disebut": 94,
+          "volume": 11,
+          "decisive": 8,
+          "positive_share": 0.625,
+          "net_sentiment": 0.18181818181818182
         },
         "pelayanan": {
           "positif": 4,
-          "negatif": 6,
+          "negatif": 5,
           "netral": 1,
-          "tidak_disebut": 94,
-          "volume": 11,
-          "decisive": 10,
-          "positive_share": 0.4,
-          "net_sentiment": -0.18181818181818182
+          "tidak_disebut": 95,
+          "volume": 10,
+          "decisive": 9,
+          "positive_share": 0.4444444444444444,
+          "net_sentiment": -0.1
         }
       },
       "strategies": {
         "rasa": "MONITOR",
-        "harga": "DEFEND",
+        "harga": "PROMOTE",
         "pelayanan": "ATTACK"
       },
       "headlines": [
@@ -112,33 +113,33 @@
       "aspects": {
         "rasa": {
           "positif": 37,
-          "negatif": 1,
-          "netral": 7,
-          "tidak_disebut": 37,
-          "volume": 45,
-          "decisive": 38,
-          "positive_share": 0.9736842105263158,
-          "net_sentiment": 0.8
+          "negatif": 3,
+          "netral": 8,
+          "tidak_disebut": 34,
+          "volume": 48,
+          "decisive": 40,
+          "positive_share": 0.925,
+          "net_sentiment": 0.7083333333333334
         },
         "harga": {
           "positif": 9,
-          "negatif": 0,
+          "negatif": 2,
           "netral": 0,
-          "tidak_disebut": 73,
-          "volume": 9,
-          "decisive": 9,
-          "positive_share": 1.0,
-          "net_sentiment": 1.0
+          "tidak_disebut": 71,
+          "volume": 11,
+          "decisive": 11,
+          "positive_share": 0.8181818181818182,
+          "net_sentiment": 0.6363636363636364
         },
         "pelayanan": {
-          "positif": 1,
-          "negatif": 5,
+          "positif": 2,
+          "negatif": 4,
           "netral": 0,
           "tidak_disebut": 76,
           "volume": 6,
           "decisive": 6,
-          "positive_share": 0.16666666666666666,
-          "net_sentiment": -0.6666666666666666
+          "positive_share": 0.3333333333333333,
+          "net_sentiment": -0.3333333333333333
         }
       },
       "strategies": {
@@ -155,75 +156,77 @@
       "_count": 102,
       "aspects": {
         "rasa": {
-          "positif": 44,
-          "negatif": 2,
+          "positif": 39,
+          "negatif": 10,
           "netral": 18,
-          "tidak_disebut": 38,
-          "volume": 64,
-          "decisive": 46,
-          "positive_share": 0.9565217391304348,
-          "net_sentiment": 0.65625
+          "tidak_disebut": 35,
+          "volume": 67,
+          "decisive": 49,
+          "positive_share": 0.7959183673469388,
+          "net_sentiment": 0.43283582089552236
         },
         "harga": {
-          "positif": 9,
-          "negatif": 7,
-          "netral": 6,
-          "tidak_disebut": 80,
-          "volume": 22,
-          "decisive": 16,
-          "positive_share": 0.5625,
-          "net_sentiment": 0.09090909090909091
+          "positif": 6,
+          "negatif": 13,
+          "netral": 4,
+          "tidak_disebut": 79,
+          "volume": 23,
+          "decisive": 19,
+          "positive_share": 0.3157894736842105,
+          "net_sentiment": -0.30434782608695654
         },
         "pelayanan": {
-          "positif": 8,
+          "positif": 13,
           "negatif": 10,
           "netral": 1,
-          "tidak_disebut": 83,
-          "volume": 19,
-          "decisive": 18,
-          "positive_share": 0.4444444444444444,
-          "net_sentiment": -0.10526315789473684
+          "tidak_disebut": 78,
+          "volume": 24,
+          "decisive": 23,
+          "positive_share": 0.5652173913043478,
+          "net_sentiment": 0.125
         }
       },
       "strategies": {
         "rasa": "MONITOR",
-        "harga": "MONITOR",
+        "harga": "ATTACK",
         "pelayanan": "MONITOR"
       },
-      "headlines": []
+      "headlines": [
+        "WEAKNESS:harga"
+      ]
     },
     "nasi_goreng_semalam_suntuk": {
       "_count": 97,
       "aspects": {
         "rasa": {
-          "positif": 44,
-          "negatif": 8,
-          "netral": 9,
+          "positif": 45,
+          "negatif": 9,
+          "netral": 7,
           "tidak_disebut": 36,
           "volume": 61,
-          "decisive": 52,
-          "positive_share": 0.8461538461538461,
+          "decisive": 54,
+          "positive_share": 0.8333333333333334,
           "net_sentiment": 0.5901639344262295
         },
         "harga": {
-          "positif": 5,
-          "negatif": 6,
+          "positif": 3,
+          "negatif": 8,
           "netral": 2,
           "tidak_disebut": 84,
           "volume": 13,
           "decisive": 11,
-          "positive_share": 0.45454545454545453,
-          "net_sentiment": -0.07692307692307693
+          "positive_share": 0.2727272727272727,
+          "net_sentiment": -0.38461538461538464
         },
         "pelayanan": {
-          "positif": 9,
-          "negatif": 8,
+          "positif": 12,
+          "negatif": 7,
           "netral": 0,
-          "tidak_disebut": 80,
-          "volume": 17,
-          "decisive": 17,
-          "positive_share": 0.5294117647058824,
-          "net_sentiment": 0.058823529411764705
+          "tidak_disebut": 78,
+          "volume": 19,
+          "decisive": 19,
+          "positive_share": 0.631578947368421,
+          "net_sentiment": 0.2631578947368421
         }
       },
       "strategies": {
@@ -239,86 +242,85 @@
       "_count": 105,
       "aspects": {
         "rasa": {
-          "positif": 55,
-          "negatif": 4,
-          "netral": 9,
-          "tidak_disebut": 37,
-          "volume": 68,
-          "decisive": 59,
-          "positive_share": 0.9322033898305084,
-          "net_sentiment": 0.75
+          "positif": 50,
+          "negatif": 5,
+          "netral": 16,
+          "tidak_disebut": 34,
+          "volume": 71,
+          "decisive": 55,
+          "positive_share": 0.9090909090909091,
+          "net_sentiment": 0.6338028169014085
         },
         "harga": {
-          "positif": 4,
+          "positif": 2,
           "negatif": 3,
-          "netral": 8,
-          "tidak_disebut": 90,
-          "volume": 15,
-          "decisive": 7,
-          "positive_share": 0.5714285714285714,
-          "net_sentiment": 0.06666666666666667
+          "netral": 11,
+          "tidak_disebut": 89,
+          "volume": 16,
+          "decisive": 5,
+          "positive_share": 0.4,
+          "net_sentiment": -0.0625
         },
         "pelayanan": {
-          "positif": 8,
-          "negatif": 4,
-          "netral": 1,
-          "tidak_disebut": 92,
-          "volume": 13,
-          "decisive": 12,
-          "positive_share": 0.6666666666666666,
-          "net_sentiment": 0.3076923076923077
+          "positif": 10,
+          "negatif": 6,
+          "netral": 2,
+          "tidak_disebut": 87,
+          "volume": 18,
+          "decisive": 16,
+          "positive_share": 0.625,
+          "net_sentiment": 0.2222222222222222
         }
       },
       "strategies": {
         "rasa": "MONITOR",
-        "harga": "MONITOR",
-        "pelayanan": "PROMOTE"
+        "harga": "ATTACK",
+        "pelayanan": "MONITOR"
       },
       "headlines": [
-        "STRENGTH:pelayanan"
+        "WEAKNESS:harga"
       ]
     },
     "nasi_goreng_wak_ribut": {
       "_count": 80,
       "aspects": {
         "rasa": {
-          "positif": 28,
-          "negatif": 9,
-          "netral": 8,
-          "tidak_disebut": 35,
-          "volume": 45,
-          "decisive": 37,
-          "positive_share": 0.7567567567567568,
-          "net_sentiment": 0.4222222222222222
+          "positif": 24,
+          "negatif": 8,
+          "netral": 14,
+          "tidak_disebut": 34,
+          "volume": 46,
+          "decisive": 32,
+          "positive_share": 0.75,
+          "net_sentiment": 0.34782608695652173
         },
         "harga": {
-          "positif": 4,
+          "positif": 5,
           "negatif": 0,
           "netral": 3,
-          "tidak_disebut": 73,
-          "volume": 7,
-          "decisive": 4,
+          "tidak_disebut": 72,
+          "volume": 8,
+          "decisive": 5,
           "positive_share": 1.0,
-          "net_sentiment": 0.5714285714285714
+          "net_sentiment": 0.625
         },
         "pelayanan": {
-          "positif": 6,
-          "negatif": 5,
+          "positif": 7,
+          "negatif": 6,
           "netral": 0,
-          "tidak_disebut": 69,
-          "volume": 11,
-          "decisive": 11,
-          "positive_share": 0.5454545454545454,
-          "net_sentiment": 0.09090909090909091
+          "tidak_disebut": 67,
+          "volume": 13,
+          "decisive": 13,
+          "positive_share": 0.5384615384615384,
+          "net_sentiment": 0.07692307692307693
         }
       },
       "strategies": {
-        "rasa": "FIX",
+        "rasa": "MONITOR",
         "harga": "DEFEND",
         "pelayanan": "MONITOR"
       },
       "headlines": [
-        "WEAKNESS:rasa",
         "STRENGTH:harga"
       ]
     },
@@ -326,14 +328,14 @@
       "_count": 118,
       "aspects": {
         "rasa": {
-          "positif": 73,
+          "positif": 66,
           "negatif": 1,
-          "netral": 4,
-          "tidak_disebut": 40,
-          "volume": 78,
-          "decisive": 74,
-          "positive_share": 0.9864864864864865,
-          "net_sentiment": 0.9230769230769231
+          "netral": 3,
+          "tidak_disebut": 48,
+          "volume": 70,
+          "decisive": 67,
+          "positive_share": 0.9850746268656716,
+          "net_sentiment": 0.9285714285714286
         },
         "harga": {
           "positif": 3,
@@ -346,22 +348,23 @@
           "net_sentiment": 1.0
         },
         "pelayanan": {
-          "positif": 39,
-          "negatif": 6,
-          "netral": 0,
-          "tidak_disebut": 73,
-          "volume": 45,
-          "decisive": 45,
-          "positive_share": 0.8666666666666667,
-          "net_sentiment": 0.7333333333333333
+          "positif": 30,
+          "negatif": 9,
+          "netral": 1,
+          "tidak_disebut": 78,
+          "volume": 40,
+          "decisive": 39,
+          "positive_share": 0.7692307692307693,
+          "net_sentiment": 0.525
         }
       },
       "strategies": {
-        "rasa": "MONITOR",
+        "rasa": "DEFEND",
         "harga": "NO_DATA",
         "pelayanan": "DEFEND"
       },
       "headlines": [
+        "STRENGTH:rasa",
         "STRENGTH:pelayanan"
       ]
     },
@@ -369,43 +372,42 @@
       "_count": 101,
       "aspects": {
         "rasa": {
-          "positif": 40,
-          "negatif": 9,
-          "netral": 14,
-          "tidak_disebut": 38,
-          "volume": 63,
-          "decisive": 49,
-          "positive_share": 0.8163265306122449,
-          "net_sentiment": 0.49206349206349204
+          "positif": 37,
+          "negatif": 13,
+          "netral": 16,
+          "tidak_disebut": 35,
+          "volume": 66,
+          "decisive": 50,
+          "positive_share": 0.74,
+          "net_sentiment": 0.36363636363636365
         },
         "harga": {
-          "positif": 1,
+          "positif": 3,
           "negatif": 6,
-          "netral": 4,
-          "tidak_disebut": 90,
-          "volume": 11,
-          "decisive": 7,
-          "positive_share": 0.14285714285714285,
-          "net_sentiment": -0.45454545454545453
+          "netral": 5,
+          "tidak_disebut": 87,
+          "volume": 14,
+          "decisive": 9,
+          "positive_share": 0.3333333333333333,
+          "net_sentiment": -0.21428571428571427
         },
         "pelayanan": {
           "positif": 4,
-          "negatif": 31,
-          "netral": 0,
-          "tidak_disebut": 66,
-          "volume": 35,
-          "decisive": 35,
-          "positive_share": 0.11428571428571428,
-          "net_sentiment": -0.7714285714285715
+          "negatif": 32,
+          "netral": 1,
+          "tidak_disebut": 64,
+          "volume": 37,
+          "decisive": 36,
+          "positive_share": 0.1111111111111111,
+          "net_sentiment": -0.7567567567567568
         }
       },
       "strategies": {
-        "rasa": "FIX",
+        "rasa": "MONITOR",
         "harga": "ATTACK",
         "pelayanan": "ATTACK"
       },
       "headlines": [
-        "WEAKNESS:rasa",
         "WEAKNESS:harga",
         "WEAKNESS:pelayanan"
       ]

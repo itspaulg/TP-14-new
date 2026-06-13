@@ -7,57 +7,58 @@ Median pasar (referensi):
 
 | Aspek | median positive_share |
 |---|---:|
-| rasa | 93.2% |
-| harga | 57.1% |
-| pelayanan | 52.9% |
+| rasa | 83.3% |
+| harga | 51.2% |
+| pelayanan | 56.5% |
 
 ## istana_nasi_goreng
 
-Prioritas: harga (DEFEND), pelayanan (DEFEND) (57 review)
+Prioritas: rasa (DEFEND), harga (DEFEND), pelayanan (DEFEND) (57 review)
 
-### 1. harga — DEFEND
+### 1. rasa — DEFEND
 
-Posisi: 87.5% positive_share. Median pasar 57.1%. Volume 8 mention.
+Posisi: 93.5% positive_share. Median pasar 83.3%. Volume 36 mention.
 
-Harga adalah strength istana_nasi_goreng: 87.5% positif (jauh di atas market 57.1%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.
+Rasa adalah moat istana_nasi_goreng: 93.5% positif, jauh di atas median (83.3%). Konsumen yang puas dengan rasa cenderung loyal. Pertahankan konsistensi produk dan jadikan rasa sebagai pesan utama marketing.
+
+Actionable:
+
+- Dokumentasikan resep & SOP rasa (sebelum pengetahuan implicit hilang)
+- Buat content story 'kenapa rasa kami berbeda' untuk marketing
+
+### 2. harga — DEFEND
+
+Posisi: 100.0% positive_share. Median pasar 51.2%. Volume 8 mention.
+
+Harga adalah strength istana_nasi_goreng: 100.0% positif (jauh di atas market 51.2%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.
 
 Actionable:
 
 - Jangan naikkan harga tanpa upgrade visible (porsi, bahan premium)
 - Tagline marketing: 'rasa premium, harga warung'
 
-### 2. pelayanan — DEFEND
+### 3. pelayanan — DEFEND
 
-Posisi: 100.0% positive_share. Median pasar 52.9%. Volume 5 mention.
+Posisi: 100.0% positive_share. Median pasar 56.5%. Volume 5 mention.
 
-Pelayanan adalah strength istana_nasi_goreng: 100.0% positif (vs market 52.9%). Customer experience yang konsisten ramah/cepat. Pertahankan culture staff dan jangan turunkan standar saat scale up.
+Pelayanan adalah strength istana_nasi_goreng: 100.0% positif (vs market 56.5%). Customer experience yang konsisten ramah/cepat. Pertahankan culture staff dan jangan turunkan standar saat scale up.
 
 Actionable:
 
 - Sistem rotation/insentif untuk pertahankan staff lama
 - Buddy system: staff baru ikut staff lama 2 minggu
 
-### 3. rasa — MONITOR
-
-Posisi: 97.0% positive_share. Median pasar 93.2%. Volume 38 mention.
-
-Rasa istana_nasi_goreng setara market (97.0% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
-
-Actionable:
-
-- Tidak perlu intervensi saat ini.
-
 ---
 
 ## nasi_goreng_komdak
 
-Prioritas: pelayanan (ATTACK), harga (DEFEND) (105 review)
+Prioritas: pelayanan (ATTACK), harga (PROMOTE) (105 review)
 
 ### 1. pelayanan — ATTACK
 
-Posisi: 40.0% positive_share. Median pasar 52.9%. Volume 11 mention.
+Posisi: 44.4% positive_share. Median pasar 56.5%. Volume 10 mention.
 
-Pelayanan adalah pain point akut: hanya 40.0% positif (median pasar 52.9%). 6/11 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.
+Pelayanan adalah pain point akut: hanya 44.4% positif (median pasar 56.5%). 5/10 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.
 
 Actionable:
 
@@ -66,22 +67,21 @@ Actionable:
 - SOP penanganan komplain (acknowledge → apologize → action)
 - Re-design alur pesanan: kasir → dapur → pengantar, cek bottleneck
 
-### 2. harga — DEFEND
+### 2. harga — PROMOTE
 
-Posisi: 71.4% positive_share. Median pasar 57.1%. Volume 10 mention.
+Posisi: 62.5% positive_share. Median pasar 51.2%. Volume 11 mention.
 
-Harga adalah strength nasi_goreng_komdak: 71.4% positif (jauh di atas market 57.1%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.
+Harga nasi_goreng_komdak kompetitif (62.5% vs market 51.2%). Use case marketing: 'pilihan terbaik di kisaran harga'.
 
 Actionable:
 
-- Jangan naikkan harga tanpa upgrade visible (porsi, bahan premium)
-- Tagline marketing: 'rasa premium, harga warung'
+- Comparison content vs kompetitor menunjukkan harga lebih baik
 
 ### 3. rasa — MONITOR
 
-Posisi: 88.6% positive_share. Median pasar 93.2%. Volume 55 mention.
+Posisi: 81.4% positive_share. Median pasar 83.3%. Volume 53 mention.
 
-Rasa nasi_goreng_komdak setara market (88.6% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
+Rasa nasi_goreng_komdak setara market (81.4% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
 
 Actionable:
 
@@ -95,9 +95,9 @@ Prioritas: pelayanan (ATTACK), harga (DEFEND) (82 review)
 
 ### 1. pelayanan — ATTACK
 
-Posisi: 16.7% positive_share. Median pasar 52.9%. Volume 6 mention.
+Posisi: 33.3% positive_share. Median pasar 56.5%. Volume 6 mention.
 
-Pelayanan adalah pain point akut: hanya 16.7% positif (median pasar 52.9%). 5/6 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.
+Pelayanan adalah pain point akut: hanya 33.3% positif (median pasar 56.5%). 4/6 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.
 
 Actionable:
 
@@ -108,9 +108,9 @@ Actionable:
 
 ### 2. harga — DEFEND
 
-Posisi: 100.0% positive_share. Median pasar 57.1%. Volume 9 mention.
+Posisi: 81.8% positive_share. Median pasar 51.2%. Volume 11 mention.
 
-Harga adalah strength nasi_goreng_pandu: 100.0% positif (jauh di atas market 57.1%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.
+Harga adalah strength nasi_goreng_pandu: 81.8% positif (jauh di atas market 51.2%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.
 
 Actionable:
 
@@ -119,9 +119,9 @@ Actionable:
 
 ### 3. rasa — MONITOR
 
-Posisi: 97.4% positive_share. Median pasar 93.2%. Volume 45 mention.
+Posisi: 92.5% positive_share. Median pasar 83.3%. Volume 48 mention.
 
-Rasa nasi_goreng_pandu setara market (97.4% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
+Rasa nasi_goreng_pandu setara market (92.5% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
 
 Actionable:
 
@@ -131,23 +131,25 @@ Actionable:
 
 ## nasi_goreng_pemuda
 
-Stabil di semua aspek. (102 review)
+Prioritas: harga (ATTACK) (102 review)
 
-### 1. rasa — MONITOR
+### 1. harga — ATTACK
 
-Posisi: 95.7% positive_share. Median pasar 93.2%. Volume 64 mention.
+Posisi: 31.6% positive_share. Median pasar 51.2%. Volume 23 mention.
 
-Rasa nasi_goreng_pemuda setara market (95.7% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
+Harga nasi_goreng_pemuda dipersepsikan tidak adil oleh customer: hanya 31.6% positif dari 23 mention (median pasar 51.2%). Dari 6/13 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).
 
 Actionable:
 
-- Tidak perlu intervensi saat ini.
+- Benchmark pricing vs 3 kompetitor terdekat (per menu sejenis)
+- Tambah opsi porsi (mini/regular/jumbo) untuk price-flexibility
+- Paket promo combo (nasgor + minum + side) dengan diskon 10-15%
 
-### 2. harga — MONITOR
+### 2. rasa — MONITOR
 
-Posisi: 56.2% positive_share. Median pasar 57.1%. Volume 22 mention.
+Posisi: 79.6% positive_share. Median pasar 83.3%. Volume 67 mention.
 
-Harga nasi_goreng_pemuda setara market (56.2% vs 57.1%). Tidak ada signal untuk intervensi pricing saat ini.
+Rasa nasi_goreng_pemuda setara market (79.6% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
 
 Actionable:
 
@@ -155,9 +157,9 @@ Actionable:
 
 ### 3. pelayanan — MONITOR
 
-Posisi: 44.4% positive_share. Median pasar 52.9%. Volume 19 mention.
+Posisi: 56.5% positive_share. Median pasar 56.5%. Volume 24 mention.
 
-Pelayanan nasi_goreng_pemuda setara market (44.4% vs 52.9%). Tidak urgent.
+Pelayanan nasi_goreng_pemuda setara market (56.5% vs 56.5%). Tidak urgent.
 
 Actionable:
 
@@ -171,9 +173,9 @@ Prioritas: harga (ATTACK) (97 review)
 
 ### 1. harga — ATTACK
 
-Posisi: 45.5% positive_share. Median pasar 57.1%. Volume 13 mention.
+Posisi: 27.3% positive_share. Median pasar 51.2%. Volume 13 mention.
 
-Harga nasi_goreng_semalam_suntuk dipersepsikan tidak adil oleh customer: hanya 45.5% positif dari 13 mention (median pasar 57.1%). Dari 5/6 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).
+Harga nasi_goreng_semalam_suntuk dipersepsikan tidak adil oleh customer: hanya 27.3% positif dari 13 mention (median pasar 51.2%). Dari 3/8 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).
 
 Actionable:
 
@@ -183,9 +185,9 @@ Actionable:
 
 ### 2. rasa — MONITOR
 
-Posisi: 84.6% positive_share. Median pasar 93.2%. Volume 61 mention.
+Posisi: 83.3% positive_share. Median pasar 83.3%. Volume 61 mention.
 
-Rasa nasi_goreng_semalam_suntuk setara market (84.6% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
+Rasa nasi_goreng_semalam_suntuk setara market (83.3% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
 
 Actionable:
 
@@ -193,9 +195,9 @@ Actionable:
 
 ### 3. pelayanan — MONITOR
 
-Posisi: 52.9% positive_share. Median pasar 52.9%. Volume 17 mention.
+Posisi: 63.2% positive_share. Median pasar 56.5%. Volume 19 mention.
 
-Pelayanan nasi_goreng_semalam_suntuk setara market (52.9% vs 52.9%). Tidak urgent.
+Pelayanan nasi_goreng_semalam_suntuk setara market (63.2% vs 56.5%). Tidak urgent.
 
 Actionable:
 
@@ -205,34 +207,35 @@ Actionable:
 
 ## nasi_goreng_surya
 
-Prioritas: pelayanan (PROMOTE) (105 review)
+Prioritas: harga (ATTACK) (105 review)
 
-### 1. pelayanan — PROMOTE
+### 1. harga — ATTACK
 
-Posisi: 66.7% positive_share. Median pasar 52.9%. Volume 13 mention.
+Posisi: 40.0% positive_share. Median pasar 51.2%. Volume 16 mention.
 
-Pelayanan nasi_goreng_surya di atas market (66.7% vs 52.9%). Tonjolkan di review platform dan social media — 'ramah', 'cepat', 'helpful'.
+Harga nasi_goreng_surya dipersepsikan tidak adil oleh customer: hanya 40.0% positif dari 16 mention (median pasar 51.2%). Dari 2/3 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).
 
 Actionable:
 
-- Highlight nama staff favorit di marketing (jika ada permission)
-- Ulasan 'ramah' jadi pull quote di feed
+- Benchmark pricing vs 3 kompetitor terdekat (per menu sejenis)
+- Tambah opsi porsi (mini/regular/jumbo) untuk price-flexibility
+- Paket promo combo (nasgor + minum + side) dengan diskon 10-15%
 
 ### 2. rasa — MONITOR
 
-Posisi: 93.2% positive_share. Median pasar 93.2%. Volume 68 mention.
+Posisi: 90.9% positive_share. Median pasar 83.3%. Volume 71 mention.
 
-Rasa nasi_goreng_surya setara market (93.2% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
+Rasa nasi_goreng_surya setara market (90.9% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
 
 Actionable:
 
 - Tidak perlu intervensi saat ini.
 
-### 3. harga — MONITOR
+### 3. pelayanan — MONITOR
 
-Posisi: 57.1% positive_share. Median pasar 57.1%. Volume 15 mention.
+Posisi: 62.5% positive_share. Median pasar 56.5%. Volume 18 mention.
 
-Harga nasi_goreng_surya setara market (57.1% vs 57.1%). Tidak ada signal untuk intervensi pricing saat ini.
+Pelayanan nasi_goreng_surya setara market (62.5% vs 56.5%). Tidak urgent.
 
 Actionable:
 
@@ -242,35 +245,34 @@ Actionable:
 
 ## nasi_goreng_wak_ribut
 
-Prioritas: rasa (FIX), harga (DEFEND) (80 review)
+Prioritas: harga (DEFEND) (80 review)
 
-### 1. rasa — FIX
+### 1. harga — DEFEND
 
-Posisi: 75.7% positive_share. Median pasar 93.2%. Volume 45 mention.
+Posisi: 100.0% positive_share. Median pasar 51.2%. Volume 8 mention.
 
-Rasa nasi_goreng_wak_ribut di 75.7%, sedikit di bawah median pasar 93.2% (gap -17.5pp). Perlu pengecekan konsistensi resep dan kualitas bahan. Tidak urgent tapi jangan dibiarkan menurun lebih jauh.
-
-Actionable:
-
-- Quality check harian sample masakan
-- Internal tasting weekly dengan owner + senior cook
-
-### 2. harga — DEFEND
-
-Posisi: 100.0% positive_share. Median pasar 57.1%. Volume 7 mention.
-
-Harga adalah strength nasi_goreng_wak_ribut: 100.0% positif (jauh di atas market 57.1%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.
+Harga adalah strength nasi_goreng_wak_ribut: 100.0% positif (jauh di atas market 51.2%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.
 
 Actionable:
 
 - Jangan naikkan harga tanpa upgrade visible (porsi, bahan premium)
 - Tagline marketing: 'rasa premium, harga warung'
 
+### 2. rasa — MONITOR
+
+Posisi: 75.0% positive_share. Median pasar 83.3%. Volume 46 mention.
+
+Rasa nasi_goreng_wak_ribut setara market (75.0% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
+
+Actionable:
+
+- Tidak perlu intervensi saat ini.
+
 ### 3. pelayanan — MONITOR
 
-Posisi: 54.5% positive_share. Median pasar 52.9%. Volume 11 mention.
+Posisi: 53.8% positive_share. Median pasar 56.5%. Volume 13 mention.
 
-Pelayanan nasi_goreng_wak_ribut setara market (54.5% vs 52.9%). Tidak urgent.
+Pelayanan nasi_goreng_wak_ribut setara market (53.8% vs 56.5%). Tidak urgent.
 
 Actionable:
 
@@ -280,32 +282,33 @@ Actionable:
 
 ## nasi_olengg
 
-Prioritas: pelayanan (DEFEND) (118 review)
+Prioritas: rasa (DEFEND), pelayanan (DEFEND) (118 review)
 
-### 1. pelayanan — DEFEND
+### 1. rasa — DEFEND
 
-Posisi: 86.7% positive_share. Median pasar 52.9%. Volume 45 mention.
+Posisi: 98.5% positive_share. Median pasar 83.3%. Volume 70 mention.
 
-Pelayanan adalah strength nasi_olengg: 86.7% positif (vs market 52.9%). Customer experience yang konsisten ramah/cepat. Pertahankan culture staff dan jangan turunkan standar saat scale up.
+Rasa adalah moat nasi_olengg: 98.5% positif, jauh di atas median (83.3%). Konsumen yang puas dengan rasa cenderung loyal. Pertahankan konsistensi produk dan jadikan rasa sebagai pesan utama marketing.
+
+Actionable:
+
+- Dokumentasikan resep & SOP rasa (sebelum pengetahuan implicit hilang)
+- Buat content story 'kenapa rasa kami berbeda' untuk marketing
+
+### 2. pelayanan — DEFEND
+
+Posisi: 76.9% positive_share. Median pasar 56.5%. Volume 40 mention.
+
+Pelayanan adalah strength nasi_olengg: 76.9% positif (vs market 56.5%). Customer experience yang konsisten ramah/cepat. Pertahankan culture staff dan jangan turunkan standar saat scale up.
 
 Actionable:
 
 - Sistem rotation/insentif untuk pertahankan staff lama
 - Buddy system: staff baru ikut staff lama 2 minggu
 
-### 2. rasa — MONITOR
-
-Posisi: 98.6% positive_share. Median pasar 93.2%. Volume 78 mention.
-
-Rasa nasi_olengg setara market (98.6% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
-
-Actionable:
-
-- Tidak perlu intervensi saat ini.
-
 ### 3. harga — NO_DATA
 
-Posisi: 100.0% positive_share. Median pasar 57.1%. Volume 3 mention.
+Posisi: 100.0% positive_share. Median pasar 51.2%. Volume 3 mention.
 
 Mention harga sangat sedikit (3). Customer kemungkinan tidak menjadikan harga sebagai pertimbangan utama, atau sample bias. Tidak ada rekomendasi pricing.
 
@@ -317,13 +320,13 @@ Actionable:
 
 ## naste
 
-Prioritas: pelayanan (ATTACK), harga (ATTACK), rasa (FIX) (101 review)
+Prioritas: pelayanan (ATTACK), harga (ATTACK) (101 review)
 
 ### 1. pelayanan — ATTACK
 
-Posisi: 11.4% positive_share. Median pasar 52.9%. Volume 35 mention.
+Posisi: 11.1% positive_share. Median pasar 56.5%. Volume 37 mention.
 
-Pelayanan adalah pain point akut: hanya 11.4% positif (median pasar 52.9%). 31/35 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.
+Pelayanan adalah pain point akut: hanya 11.1% positif (median pasar 56.5%). 32/37 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.
 
 Actionable:
 
@@ -334,9 +337,9 @@ Actionable:
 
 ### 2. harga — ATTACK
 
-Posisi: 14.3% positive_share. Median pasar 57.1%. Volume 11 mention.
+Posisi: 33.3% positive_share. Median pasar 51.2%. Volume 14 mention.
 
-Harga naste dipersepsikan tidak adil oleh customer: hanya 14.3% positif dari 11 mention (median pasar 57.1%). Dari 1/6 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).
+Harga naste dipersepsikan tidak adil oleh customer: hanya 33.3% positif dari 14 mention (median pasar 51.2%). Dari 3/6 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).
 
 Actionable:
 
@@ -344,15 +347,14 @@ Actionable:
 - Tambah opsi porsi (mini/regular/jumbo) untuk price-flexibility
 - Paket promo combo (nasgor + minum + side) dengan diskon 10-15%
 
-### 3. rasa — FIX
+### 3. rasa — MONITOR
 
-Posisi: 81.6% positive_share. Median pasar 93.2%. Volume 63 mention.
+Posisi: 74.0% positive_share. Median pasar 83.3%. Volume 66 mention.
 
-Rasa naste di 81.6%, sedikit di bawah median pasar 93.2% (gap -11.6pp). Perlu pengecekan konsistensi resep dan kualitas bahan. Tidak urgent tapi jangan dibiarkan menurun lebih jauh.
+Rasa naste setara market (74.0% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.
 
 Actionable:
 
-- Quality check harian sample masakan
-- Internal tasting weekly dengan owner + senior cook
+- Tidak perlu intervensi saat ini.
 
 ---

@@ -41,9 +41,9 @@ Masing-masing folder ada README sendiri dengan detail.
 
 ```
 gmaps_scraper/scrape.py    →  output/raw/<umkm>.csv  (1716 review)
-absa/prepare_data.py       →  data/pool.csv (847)  +  data/sample.csv (276)
-absa/annotate.py           →  data/labels.jsonl
-absa/train.py              →  models/indobert-absa/ (macro-F1 0.7556)
+absa/prepare_data.py       →  data/pool.csv (847)  +  data/sample.csv
+absa/annotate.py + annotate_context.py → data/labels.jsonl (506, AI-assisted+review)
+absa/train.py              →  models/indobert-absa/ (macro-F1 0.696, weighted ~0.82)
 absa/predict.py            →  data/predictions.csv  (847 inference)
 analytics/analyze.py       →  snapshot.json + report.md
 analytics/recommend.py     →  recommendations.json + .md
@@ -55,7 +55,7 @@ dashboard/ (Next.js)       →  visualisasi interaktif
 | Deliverable | Status | Artefak |
 |---|---|---|
 | 1. Data collection | ✓ | 1716 review (847 with text), 9 UMKM |
-| 2. ABSA model | ✓ | IndoBERT macro-F1 0.7556, weighted-F1 0.835 |
+| 2. ABSA model | ✓ | IndoBERT, 506 labels, macro-F1 0.696 / weighted-F1 ~0.82 (lihat docs/model_evaluation.md) |
 | 3. Analytics engine | ✓ | snapshot.json + leaderboard per aspek |
 | 4. Recommendation engine | ✓ | rule-based templates, 6 strategy codes |
 | 5. Dashboard | ✓ | Next.js 4 page (overview / per-UMKM / recommendations / analyze) + search box |

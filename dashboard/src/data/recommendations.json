@@ -1,16 +1,29 @@
 {
   "per_umkm": {
     "istana_nasi_goreng": {
-      "summary": "Prioritas: harga (DEFEND), pelayanan (DEFEND)",
+      "summary": "Prioritas: rasa (DEFEND), harga (DEFEND), pelayanan (DEFEND)",
       "actions": [
+        {
+          "aspect": "rasa",
+          "code": "DEFEND",
+          "priority": 3,
+          "positive_share": 0.9354838709677419,
+          "market_share": 0.8333333333333334,
+          "volume": 36,
+          "rationale": "Rasa adalah moat istana_nasi_goreng: 93.5% positif, jauh di atas median (83.3%). Konsumen yang puas dengan rasa cenderung loyal. Pertahankan konsistensi produk dan jadikan rasa sebagai pesan utama marketing.",
+          "actionable": [
+            "Dokumentasikan resep & SOP rasa (sebelum pengetahuan implicit hilang)",
+            "Buat content story 'kenapa rasa kami berbeda' untuk marketing"
+          ]
+        },
         {
           "aspect": "harga",
           "code": "DEFEND",
           "priority": 3,
-          "positive_share": 0.875,
-          "market_share": 0.5714285714285714,
+          "positive_share": 1.0,
+          "market_share": 0.5125,
           "volume": 8,
-          "rationale": "Harga adalah strength istana_nasi_goreng: 87.5% positif (jauh di atas market 57.1%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.",
+          "rationale": "Harga adalah strength istana_nasi_goreng: 100.0% positif (jauh di atas market 51.2%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.",
           "actionable": [
             "Jangan naikkan harga tanpa upgrade visible (porsi, bahan premium)",
             "Tagline marketing: 'rasa premium, harga warung'"
@@ -21,40 +34,28 @@
           "code": "DEFEND",
           "priority": 3,
           "positive_share": 1.0,
-          "market_share": 0.5294117647058824,
+          "market_share": 0.5652173913043478,
           "volume": 5,
-          "rationale": "Pelayanan adalah strength istana_nasi_goreng: 100.0% positif (vs market 52.9%). Customer experience yang konsisten ramah/cepat. Pertahankan culture staff dan jangan turunkan standar saat scale up.",
+          "rationale": "Pelayanan adalah strength istana_nasi_goreng: 100.0% positif (vs market 56.5%). Customer experience yang konsisten ramah/cepat. Pertahankan culture staff dan jangan turunkan standar saat scale up.",
           "actionable": [
             "Sistem rotation/insentif untuk pertahankan staff lama",
             "Buddy system: staff baru ikut staff lama 2 minggu"
-          ]
-        },
-        {
-          "aspect": "rasa",
-          "code": "MONITOR",
-          "priority": 5,
-          "positive_share": 0.9696969696969697,
-          "market_share": 0.9322033898305084,
-          "volume": 38,
-          "rationale": "Rasa istana_nasi_goreng setara market (97.0% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
-          "actionable": [
-            "Tidak perlu intervensi saat ini."
           ]
         }
       ],
       "review_count": 57
     },
     "nasi_goreng_komdak": {
-      "summary": "Prioritas: pelayanan (ATTACK), harga (DEFEND)",
+      "summary": "Prioritas: pelayanan (ATTACK), harga (PROMOTE)",
       "actions": [
         {
           "aspect": "pelayanan",
           "code": "ATTACK",
           "priority": 1,
-          "positive_share": 0.4,
-          "market_share": 0.5294117647058824,
-          "volume": 11,
-          "rationale": "Pelayanan adalah pain point akut: hanya 40.0% positif (median pasar 52.9%). 6/11 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.",
+          "positive_share": 0.4444444444444444,
+          "market_share": 0.5652173913043478,
+          "volume": 10,
+          "rationale": "Pelayanan adalah pain point akut: hanya 44.4% positif (median pasar 56.5%). 5/10 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.",
           "actionable": [
             "Audit waktu tunggu rata-rata pesanan (target ≤ 15 menit untuk dine-in)",
             "Training basic hospitality untuk semua staff: greeting, eye contact, smile",
@@ -64,25 +65,24 @@
         },
         {
           "aspect": "harga",
-          "code": "DEFEND",
-          "priority": 3,
-          "positive_share": 0.7142857142857143,
-          "market_share": 0.5714285714285714,
-          "volume": 10,
-          "rationale": "Harga adalah strength nasi_goreng_komdak: 71.4% positif (jauh di atas market 57.1%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.",
+          "code": "PROMOTE",
+          "priority": 4,
+          "positive_share": 0.625,
+          "market_share": 0.5125,
+          "volume": 11,
+          "rationale": "Harga nasi_goreng_komdak kompetitif (62.5% vs market 51.2%). Use case marketing: 'pilihan terbaik di kisaran harga'.",
           "actionable": [
-            "Jangan naikkan harga tanpa upgrade visible (porsi, bahan premium)",
-            "Tagline marketing: 'rasa premium, harga warung'"
+            "Comparison content vs kompetitor menunjukkan harga lebih baik"
           ]
         },
         {
           "aspect": "rasa",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.8863636363636364,
-          "market_share": 0.9322033898305084,
-          "volume": 55,
-          "rationale": "Rasa nasi_goreng_komdak setara market (88.6% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
+          "positive_share": 0.813953488372093,
+          "market_share": 0.8333333333333334,
+          "volume": 53,
+          "rationale": "Rasa nasi_goreng_komdak setara market (81.4% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
@@ -97,10 +97,10 @@
           "aspect": "pelayanan",
           "code": "ATTACK",
           "priority": 1,
-          "positive_share": 0.16666666666666666,
-          "market_share": 0.5294117647058824,
+          "positive_share": 0.3333333333333333,
+          "market_share": 0.5652173913043478,
           "volume": 6,
-          "rationale": "Pelayanan adalah pain point akut: hanya 16.7% positif (median pasar 52.9%). 5/6 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.",
+          "rationale": "Pelayanan adalah pain point akut: hanya 33.3% positif (median pasar 56.5%). 4/6 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.",
           "actionable": [
             "Audit waktu tunggu rata-rata pesanan (target ≤ 15 menit untuk dine-in)",
             "Training basic hospitality untuk semua staff: greeting, eye contact, smile",
@@ -112,10 +112,10 @@
           "aspect": "harga",
           "code": "DEFEND",
           "priority": 3,
-          "positive_share": 1.0,
-          "market_share": 0.5714285714285714,
-          "volume": 9,
-          "rationale": "Harga adalah strength nasi_goreng_pandu: 100.0% positif (jauh di atas market 57.1%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.",
+          "positive_share": 0.8181818181818182,
+          "market_share": 0.5125,
+          "volume": 11,
+          "rationale": "Harga adalah strength nasi_goreng_pandu: 81.8% positif (jauh di atas market 51.2%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.",
           "actionable": [
             "Jangan naikkan harga tanpa upgrade visible (porsi, bahan premium)",
             "Tagline marketing: 'rasa premium, harga warung'"
@@ -125,10 +125,10 @@
           "aspect": "rasa",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.9736842105263158,
-          "market_share": 0.9322033898305084,
-          "volume": 45,
-          "rationale": "Rasa nasi_goreng_pandu setara market (97.4% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
+          "positive_share": 0.925,
+          "market_share": 0.8333333333333334,
+          "volume": 48,
+          "rationale": "Rasa nasi_goreng_pandu setara market (92.5% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
@@ -137,28 +137,30 @@
       "review_count": 82
     },
     "nasi_goreng_pemuda": {
-      "summary": "Stabil di semua aspek.",
+      "summary": "Prioritas: harga (ATTACK)",
       "actions": [
+        {
+          "aspect": "harga",
+          "code": "ATTACK",
+          "priority": 1,
+          "positive_share": 0.3157894736842105,
+          "market_share": 0.5125,
+          "volume": 23,
+          "rationale": "Harga nasi_goreng_pemuda dipersepsikan tidak adil oleh customer: hanya 31.6% positif dari 23 mention (median pasar 51.2%). Dari 6/13 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).",
+          "actionable": [
+            "Benchmark pricing vs 3 kompetitor terdekat (per menu sejenis)",
+            "Tambah opsi porsi (mini/regular/jumbo) untuk price-flexibility",
+            "Paket promo combo (nasgor + minum + side) dengan diskon 10-15%"
+          ]
+        },
         {
           "aspect": "rasa",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.9565217391304348,
-          "market_share": 0.9322033898305084,
-          "volume": 64,
-          "rationale": "Rasa nasi_goreng_pemuda setara market (95.7% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
-          "actionable": [
-            "Tidak perlu intervensi saat ini."
-          ]
-        },
-        {
-          "aspect": "harga",
-          "code": "MONITOR",
-          "priority": 5,
-          "positive_share": 0.5625,
-          "market_share": 0.5714285714285714,
-          "volume": 22,
-          "rationale": "Harga nasi_goreng_pemuda setara market (56.2% vs 57.1%). Tidak ada signal untuk intervensi pricing saat ini.",
+          "positive_share": 0.7959183673469388,
+          "market_share": 0.8333333333333334,
+          "volume": 67,
+          "rationale": "Rasa nasi_goreng_pemuda setara market (79.6% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
@@ -167,10 +169,10 @@
           "aspect": "pelayanan",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.4444444444444444,
-          "market_share": 0.5294117647058824,
-          "volume": 19,
-          "rationale": "Pelayanan nasi_goreng_pemuda setara market (44.4% vs 52.9%). Tidak urgent.",
+          "positive_share": 0.5652173913043478,
+          "market_share": 0.5652173913043478,
+          "volume": 24,
+          "rationale": "Pelayanan nasi_goreng_pemuda setara market (56.5% vs 56.5%). Tidak urgent.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
@@ -185,10 +187,10 @@
           "aspect": "harga",
           "code": "ATTACK",
           "priority": 1,
-          "positive_share": 0.45454545454545453,
-          "market_share": 0.5714285714285714,
+          "positive_share": 0.2727272727272727,
+          "market_share": 0.5125,
           "volume": 13,
-          "rationale": "Harga nasi_goreng_semalam_suntuk dipersepsikan tidak adil oleh customer: hanya 45.5% positif dari 13 mention (median pasar 57.1%). Dari 5/6 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).",
+          "rationale": "Harga nasi_goreng_semalam_suntuk dipersepsikan tidak adil oleh customer: hanya 27.3% positif dari 13 mention (median pasar 51.2%). Dari 3/8 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).",
           "actionable": [
             "Benchmark pricing vs 3 kompetitor terdekat (per menu sejenis)",
             "Tambah opsi porsi (mini/regular/jumbo) untuk price-flexibility",
@@ -199,10 +201,10 @@
           "aspect": "rasa",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.8461538461538461,
-          "market_share": 0.9322033898305084,
+          "positive_share": 0.8333333333333334,
+          "market_share": 0.8333333333333334,
           "volume": 61,
-          "rationale": "Rasa nasi_goreng_semalam_suntuk setara market (84.6% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
+          "rationale": "Rasa nasi_goreng_semalam_suntuk setara market (83.3% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
@@ -211,10 +213,10 @@
           "aspect": "pelayanan",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.5294117647058824,
-          "market_share": 0.5294117647058824,
-          "volume": 17,
-          "rationale": "Pelayanan nasi_goreng_semalam_suntuk setara market (52.9% vs 52.9%). Tidak urgent.",
+          "positive_share": 0.631578947368421,
+          "market_share": 0.5652173913043478,
+          "volume": 19,
+          "rationale": "Pelayanan nasi_goreng_semalam_suntuk setara market (63.2% vs 56.5%). Tidak urgent.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
@@ -223,41 +225,42 @@
       "review_count": 97
     },
     "nasi_goreng_surya": {
-      "summary": "Prioritas: pelayanan (PROMOTE)",
+      "summary": "Prioritas: harga (ATTACK)",
       "actions": [
         {
-          "aspect": "pelayanan",
-          "code": "PROMOTE",
-          "priority": 4,
-          "positive_share": 0.6666666666666666,
-          "market_share": 0.5294117647058824,
-          "volume": 13,
-          "rationale": "Pelayanan nasi_goreng_surya di atas market (66.7% vs 52.9%). Tonjolkan di review platform dan social media — 'ramah', 'cepat', 'helpful'.",
+          "aspect": "harga",
+          "code": "ATTACK",
+          "priority": 1,
+          "positive_share": 0.4,
+          "market_share": 0.5125,
+          "volume": 16,
+          "rationale": "Harga nasi_goreng_surya dipersepsikan tidak adil oleh customer: hanya 40.0% positif dari 16 mention (median pasar 51.2%). Dari 2/3 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).",
           "actionable": [
-            "Highlight nama staff favorit di marketing (jika ada permission)",
-            "Ulasan 'ramah' jadi pull quote di feed"
+            "Benchmark pricing vs 3 kompetitor terdekat (per menu sejenis)",
+            "Tambah opsi porsi (mini/regular/jumbo) untuk price-flexibility",
+            "Paket promo combo (nasgor + minum + side) dengan diskon 10-15%"
           ]
         },
         {
           "aspect": "rasa",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.9322033898305084,
-          "market_share": 0.9322033898305084,
-          "volume": 68,
-          "rationale": "Rasa nasi_goreng_surya setara market (93.2% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
+          "positive_share": 0.9090909090909091,
+          "market_share": 0.8333333333333334,
+          "volume": 71,
+          "rationale": "Rasa nasi_goreng_surya setara market (90.9% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
         },
         {
-          "aspect": "harga",
+          "aspect": "pelayanan",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.5714285714285714,
-          "market_share": 0.5714285714285714,
-          "volume": 15,
-          "rationale": "Harga nasi_goreng_surya setara market (57.1% vs 57.1%). Tidak ada signal untuk intervensi pricing saat ini.",
+          "positive_share": 0.625,
+          "market_share": 0.5652173913043478,
+          "volume": 18,
+          "rationale": "Pelayanan nasi_goreng_surya setara market (62.5% vs 56.5%). Tidak urgent.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
@@ -266,42 +269,41 @@
       "review_count": 105
     },
     "nasi_goreng_wak_ribut": {
-      "summary": "Prioritas: rasa (FIX), harga (DEFEND)",
+      "summary": "Prioritas: harga (DEFEND)",
       "actions": [
-        {
-          "aspect": "rasa",
-          "code": "FIX",
-          "priority": 2,
-          "positive_share": 0.7567567567567568,
-          "market_share": 0.9322033898305084,
-          "volume": 45,
-          "rationale": "Rasa nasi_goreng_wak_ribut di 75.7%, sedikit di bawah median pasar 93.2% (gap -17.5pp). Perlu pengecekan konsistensi resep dan kualitas bahan. Tidak urgent tapi jangan dibiarkan menurun lebih jauh.",
-          "actionable": [
-            "Quality check harian sample masakan",
-            "Internal tasting weekly dengan owner + senior cook"
-          ]
-        },
         {
           "aspect": "harga",
           "code": "DEFEND",
           "priority": 3,
           "positive_share": 1.0,
-          "market_share": 0.5714285714285714,
-          "volume": 7,
-          "rationale": "Harga adalah strength nasi_goreng_wak_ribut: 100.0% positif (jauh di atas market 57.1%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.",
+          "market_share": 0.5125,
+          "volume": 8,
+          "rationale": "Harga adalah strength nasi_goreng_wak_ribut: 100.0% positif (jauh di atas market 51.2%). Customer melihat ini sebagai 'value for money'. Pertahankan price-point dan jangan naik tanpa upgrade kualitas; tonjolkan di komunikasi.",
           "actionable": [
             "Jangan naikkan harga tanpa upgrade visible (porsi, bahan premium)",
             "Tagline marketing: 'rasa premium, harga warung'"
           ]
         },
         {
+          "aspect": "rasa",
+          "code": "MONITOR",
+          "priority": 5,
+          "positive_share": 0.75,
+          "market_share": 0.8333333333333334,
+          "volume": 46,
+          "rationale": "Rasa nasi_goreng_wak_ribut setara market (75.0% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
+          "actionable": [
+            "Tidak perlu intervensi saat ini."
+          ]
+        },
+        {
           "aspect": "pelayanan",
           "code": "MONITOR",
           "priority": 5,
-          "positive_share": 0.5454545454545454,
-          "market_share": 0.5294117647058824,
-          "volume": 11,
-          "rationale": "Pelayanan nasi_goreng_wak_ribut setara market (54.5% vs 52.9%). Tidak urgent.",
+          "positive_share": 0.5384615384615384,
+          "market_share": 0.5652173913043478,
+          "volume": 13,
+          "rationale": "Pelayanan nasi_goreng_wak_ribut setara market (53.8% vs 56.5%). Tidak urgent.",
           "actionable": [
             "Tidak perlu intervensi saat ini."
           ]
@@ -310,31 +312,32 @@
       "review_count": 80
     },
     "nasi_olengg": {
-      "summary": "Prioritas: pelayanan (DEFEND)",
+      "summary": "Prioritas: rasa (DEFEND), pelayanan (DEFEND)",
       "actions": [
+        {
+          "aspect": "rasa",
+          "code": "DEFEND",
+          "priority": 3,
+          "positive_share": 0.9850746268656716,
+          "market_share": 0.8333333333333334,
+          "volume": 70,
+          "rationale": "Rasa adalah moat nasi_olengg: 98.5% positif, jauh di atas median (83.3%). Konsumen yang puas dengan rasa cenderung loyal. Pertahankan konsistensi produk dan jadikan rasa sebagai pesan utama marketing.",
+          "actionable": [
+            "Dokumentasikan resep & SOP rasa (sebelum pengetahuan implicit hilang)",
+            "Buat content story 'kenapa rasa kami berbeda' untuk marketing"
+          ]
+        },
         {
           "aspect": "pelayanan",
           "code": "DEFEND",
           "priority": 3,
-          "positive_share": 0.8666666666666667,
-          "market_share": 0.5294117647058824,
-          "volume": 45,
-          "rationale": "Pelayanan adalah strength nasi_olengg: 86.7% positif (vs market 52.9%). Customer experience yang konsisten ramah/cepat. Pertahankan culture staff dan jangan turunkan standar saat scale up.",
+          "positive_share": 0.7692307692307693,
+          "market_share": 0.5652173913043478,
+          "volume": 40,
+          "rationale": "Pelayanan adalah strength nasi_olengg: 76.9% positif (vs market 56.5%). Customer experience yang konsisten ramah/cepat. Pertahankan culture staff dan jangan turunkan standar saat scale up.",
           "actionable": [
             "Sistem rotation/insentif untuk pertahankan staff lama",
             "Buddy system: staff baru ikut staff lama 2 minggu"
-          ]
-        },
-        {
-          "aspect": "rasa",
-          "code": "MONITOR",
-          "priority": 5,
-          "positive_share": 0.9864864864864865,
-          "market_share": 0.9322033898305084,
-          "volume": 78,
-          "rationale": "Rasa nasi_olengg setara market (98.6% vs 93.2%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
-          "actionable": [
-            "Tidak perlu intervensi saat ini."
           ]
         },
         {
@@ -342,7 +345,7 @@
           "code": "NO_DATA",
           "priority": 6,
           "positive_share": 1.0,
-          "market_share": 0.5714285714285714,
+          "market_share": 0.5125,
           "volume": 3,
           "rationale": "Mention harga sangat sedikit (3). Customer kemungkinan tidak menjadikan harga sebagai pertimbangan utama, atau sample bias. Tidak ada rekomendasi pricing.",
           "actionable": [
@@ -353,16 +356,16 @@
       "review_count": 118
     },
     "naste": {
-      "summary": "Prioritas: pelayanan (ATTACK), harga (ATTACK), rasa (FIX)",
+      "summary": "Prioritas: pelayanan (ATTACK), harga (ATTACK)",
       "actions": [
         {
           "aspect": "pelayanan",
           "code": "ATTACK",
           "priority": 1,
-          "positive_share": 0.11428571428571428,
-          "market_share": 0.5294117647058824,
-          "volume": 35,
-          "rationale": "Pelayanan adalah pain point akut: hanya 11.4% positif (median pasar 52.9%). 31/35 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.",
+          "positive_share": 0.1111111111111111,
+          "market_share": 0.5652173913043478,
+          "volume": 37,
+          "rationale": "Pelayanan adalah pain point akut: hanya 11.1% positif (median pasar 56.5%). 32/37 mention bernada negatif. Pattern umum di review: waktu tunggu, sikap staff, kesalahan order. Aksi prioritas: audit response time, training staff, dan SOP penanganan komplain. Ini sering jadi alasan #1 customer pindah.",
           "actionable": [
             "Audit waktu tunggu rata-rata pesanan (target ≤ 15 menit untuk dine-in)",
             "Training basic hospitality untuk semua staff: greeting, eye contact, smile",
@@ -374,10 +377,10 @@
           "aspect": "harga",
           "code": "ATTACK",
           "priority": 1,
-          "positive_share": 0.14285714285714285,
-          "market_share": 0.5714285714285714,
-          "volume": 11,
-          "rationale": "Harga naste dipersepsikan tidak adil oleh customer: hanya 14.3% positif dari 11 mention (median pasar 57.1%). Dari 1/6 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).",
+          "positive_share": 0.3333333333333333,
+          "market_share": 0.5125,
+          "volume": 14,
+          "rationale": "Harga naste dipersepsikan tidak adil oleh customer: hanya 33.3% positif dari 14 mention (median pasar 51.2%). Dari 3/6 pos/neg, complaint dominan adalah 'mahal untuk porsi' atau 'tidak sepadan'. Aksi: audit pricing vs kompetitor langsung, atau tambahkan value (bundling, porsi alternatif, paket promo).",
           "actionable": [
             "Benchmark pricing vs 3 kompetitor terdekat (per menu sejenis)",
             "Tambah opsi porsi (mini/regular/jumbo) untuk price-flexibility",
@@ -386,15 +389,14 @@
         },
         {
           "aspect": "rasa",
-          "code": "FIX",
-          "priority": 2,
-          "positive_share": 0.8163265306122449,
-          "market_share": 0.9322033898305084,
-          "volume": 63,
-          "rationale": "Rasa naste di 81.6%, sedikit di bawah median pasar 93.2% (gap -11.6pp). Perlu pengecekan konsistensi resep dan kualitas bahan. Tidak urgent tapi jangan dibiarkan menurun lebih jauh.",
+          "code": "MONITOR",
+          "priority": 5,
+          "positive_share": 0.74,
+          "market_share": 0.8333333333333334,
+          "volume": 66,
+          "rationale": "Rasa naste setara market (74.0% vs 83.3%). Tidak perlu intervensi; alokasikan resource ke aspek lain.",
           "actionable": [
-            "Quality check harian sample masakan",
-            "Internal tasting weekly dengan owner + senior cook"
+            "Tidak perlu intervensi saat ini."
           ]
         }
       ],
@@ -403,18 +405,18 @@
   },
   "market": {
     "rasa": {
-      "median_positive_share": 0.9322033898305084,
-      "median_net_sentiment": 0.65625,
+      "median_positive_share": 0.8333333333333334,
+      "median_net_sentiment": 0.5901639344262295,
       "n_umkm": 9
     },
     "harga": {
-      "median_positive_share": 0.5714285714285714,
-      "median_net_sentiment": 0.19545454545454544,
-      "n_umkm": 7
+      "median_positive_share": 0.5125,
+      "median_net_sentiment": 0.05965909090909091,
+      "n_umkm": 8
     },
     "pelayanan": {
-      "median_positive_share": 0.5294117647058824,
-      "median_net_sentiment": 0.058823529411764705,
+      "median_positive_share": 0.5652173913043478,
+      "median_net_sentiment": 0.125,
       "n_umkm": 9
     }
   }
