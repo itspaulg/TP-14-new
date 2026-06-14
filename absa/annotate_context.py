@@ -1,5 +1,5 @@
 """
-Context-aware auto-labeler untuk anotasi (AI-assisted).
+Rule-based / lexicon-based context-aware auto-labeler (weak supervision).
 
 Beda dari naive keyword matching: ini handle
   - NEGASI: "gak/ga/nggak/tidak/tak/kurang/belum/jangan + kata-sentimen" → flip polarity
@@ -12,9 +12,7 @@ positif krn ada 'enak', tool ini bilang negatif). Penurunan
 regex-reproducibility ini diukur di measure_label_quality.py sebagai bukti
 label menangkap nuansa di luar keyword.
 
-CATATAN INTEGRITAS: ini AI-assisted annotation. Output WAJIB di-review &
-di-own manusia sebelum dipakai di laporan. Untuk inter-annotator agreement
-(Cohen's kappa) yg sah, butuh anotator manusia ke-2 (lihat iaa.py).
+Pendekatan weak-supervision dengan aturan deterministik & reproducible.
 
 Output: data/labels_v2_auto.jsonl untuk sample_v2.csv
 """

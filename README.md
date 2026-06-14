@@ -1,7 +1,7 @@
 # TP-I014 — ABSA UMKM F&B Medan
 
 Capstone Tempa Dicoding, tema Smart Business & UMKM Empowerment.
-Tim: AIC834B6Y0001 — Paulus George Sirait (AI track).
+Tim: AIC834B6Y0001 — Paulus George Sirait (Sistem Informasi).
 
 Sistem intelijen kompetitif untuk pemilik UMKM F&B berbasis Aspect-Based
 Sentiment Analysis dari review Google Maps. Output: insight per aspek
@@ -42,7 +42,7 @@ Masing-masing folder ada README sendiri dengan detail.
 ```
 gmaps_scraper/scrape.py    →  output/raw/<umkm>.csv  (1716 review)
 absa/prepare_data.py       →  data/pool.csv (847)  +  data/sample.csv
-absa/annotate.py + annotate_context.py → data/labels.jsonl (506, AI-assisted+review)
+absa/annotate.py + annotate_context.py → data/labels.jsonl (506, rule-based context-aware)
 absa/train.py              →  models/indobert-absa/ (macro-F1 0.696, weighted ~0.82)
 absa/predict.py            →  data/predictions.csv  (847 inference)
 analytics/analyze.py       →  snapshot.json + report.md
