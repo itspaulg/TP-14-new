@@ -1,7 +1,7 @@
 # TP-I014 — ABSA UMKM F&B Medan
 
 Capstone Tempa Dicoding, tema Smart Business & UMKM Empowerment.
-Tim: AIC834B6Y0001 — Paulus George Sirait (Sistem Informasi).
+Tim: AIC834B6Y0001 — Paulus George Sirait (AI).
 
 Sistem intelijen kompetitif untuk pemilik UMKM F&B berbasis Aspect-Based
 Sentiment Analysis dari review Google Maps. Output: insight per aspek
@@ -19,7 +19,6 @@ absa/            Fine-tuning IndoBERT untuk 3-aspect ABSA
 analytics/       Comparative benchmarking + rule-based recommendation engine
 dashboard/       Next.js dashboard untuk visualisasi (+ search box + live analyze)
 api/             FastAPI backend untuk live analyze (scrape+inference on demand)
-docs/            Demo script, slide content, validation form
 ```
 
 Masing-masing folder ada README sendiri dengan detail.
@@ -55,12 +54,10 @@ dashboard/ (Next.js)       →  visualisasi interaktif
 | Deliverable | Status | Artefak |
 |---|---|---|
 | 1. Data collection | ✓ | 1716 review (847 with text), 9 UMKM |
-| 2. ABSA model | ✓ | IndoBERT, 506 labels, macro-F1 0.696 / weighted-F1 ~0.82 (lihat docs/model_evaluation.md) |
+| 2. ABSA model | ✓ | IndoBERT, 506 labels, macro-F1 0.696 / weighted-F1 ~0.82 |
 | 3. Analytics engine | ✓ | snapshot.json + leaderboard per aspek |
 | 4. Recommendation engine | ✓ | rule-based templates, 6 strategy codes |
 | 5. Dashboard | ✓ | Next.js 4 page (overview / per-UMKM / recommendations / analyze) + search box |
-| 6. Validation | ✓ | Google Form survey (lihat docs/) |
-| 7. Docs + demo + deck | ✓ | docs/demo_script.md + docs/slide_content.md |
 | Bonus. Live analyze | ✓ | api/ FastAPI: paste URL → scrape + inference on demand |
 
 ## Quick start
