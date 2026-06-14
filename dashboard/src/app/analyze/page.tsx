@@ -60,9 +60,12 @@ export default function AnalyzePage() {
       setResult(await res.json());
     } catch (e: unknown) {
       const msg = e instanceof Error ? e.message : String(e);
-      if (msg.includes("Failed to fetch")) {
+      const networkish = /failed to fetch|load failed|networkerror|fetch/i.test(
+        msg,
+      );
+      if (networkish) {
         setError(
-          "Tidak bisa connect ke backend. Pastikan API jalan: `cd api && uvicorn main:app --port 8000`",
+          "Fitur live butuh backend yang berjalan. Di versi online ini backend memang nonaktif — buka halaman Overview & per-UMKM untuk hasil yang sudah jadi. Untuk mencoba live, jalankan repo secara lokal: `cd api && uvicorn main:app --port 8000`.",
         );
       } else {
         setError(msg);
@@ -83,6 +86,12 @@ export default function AnalyzePage() {
           jalankan IndoBERT untuk 3 aspek, lalu bandingkan dengan median pasar
           nasi goreng Medan. Proses ini <strong>tidak instan</strong> — scraping
           butuh ~1-2 menit.
+        </p>
+        <p className="mt-2 max-w-3xl text-xs text-zinc-400 dark:text-zinc-500">
+          Catatan: fitur live butuh backend lokal (scraping + IndoBERT), jadi di
+          versi online ini belum aktif. Jalankan repo secara lokal untuk
+          mencobanya — hasil yang sudah jadi ada di halaman Overview &amp;
+          per-UMKM.
         </p>
       </div>
 
